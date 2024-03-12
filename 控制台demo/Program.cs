@@ -16,7 +16,7 @@
         Console.WriteLine($"复利投资 {month}个月");
         Console.WriteLine($"最终本金：{total}");
         Console.WriteLine($"总投资本金：{totalAdd}");
-        Console.WriteLine($"总收益11：{Math.Round(total - totalAdd)}");
+        Console.WriteLine($"总收益：{Math.Round(total - totalAdd)}");
     }
 
     static (double, double) Calc(double initMoney, double rate, int month, double add)
